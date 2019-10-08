@@ -1,0 +1,28 @@
+{% extends 'basecamp/base_full.html' %}
+{% load static %}
+{% block content %}
+    <div class="container">
+        <div class ="row">
+            <div class="col-md-9">
+                <h1 class="my-3">About</h1>
+                <h3 class="my-3">Sophie Son</h3>
+
+                <h5 class="my-2"></h5>
+                <p>"I'm hospitality expert"</p>
+            </div>
+            <div class="col-md">
+                <img class="img-fluid" src="{%static 'basecamp/images/coffee.jpg' %}">
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <img class="img-fluid" src="{%static 'basecamp/images/coffee.jpg' %}">
+                </div>
+                <div class ="col-md">
+                    <h1 class="my-3">Contact me</h1>
+                    <h5>E-mail:<smail>subins@student.unimelb.edu.au</smail></h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
